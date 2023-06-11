@@ -31,7 +31,8 @@ img {
 }
 
 .pb-100 {
-    padding-bottom: 120px
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .pb-50 {
@@ -83,7 +84,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #538055;
+    color: #449342;
     font-family: "source serif pro", serif;
     font-weight: 700
 }
@@ -131,7 +132,7 @@ textarea {
 }
 
 .top-header-area {
-    background-color: #e1db7d;
+    background-color: #02353c;
     padding-top: 8px;
     padding-bottom: 8px
 }
@@ -231,7 +232,7 @@ textarea {
 }
 
 .nav-bg-1 {
-    background-color: #538055
+    background-color: #fff;
 }
 
 .nav-bg-2 {
@@ -267,7 +268,7 @@ textarea {
 
 .desktop-nav .navbar .navbar-nav .nav-item a {
     font-size: 16px;
-    color: #fff;
+    color: #02353c;
     line-height: 1;
     position: relative;
     font-weight: 600;
@@ -1042,7 +1043,7 @@ textarea {
 }
 
 .read-more-btn.active {
-    color: #b6cfb7;
+    color: #104d13;
     letter-spacing: 0
 }
 
@@ -1098,7 +1099,7 @@ textarea {
 }
 
 .banner-area {
-    background-color: #538055;
+    background-color: #449342;
     overflow: hidden
 }
 
@@ -4669,7 +4670,7 @@ textarea {
 }
 
 .footer-area {
-    background-color: #538055;
+    background-color: #449342;
     position: relative;
     z-index: 1
 }
@@ -4751,11 +4752,11 @@ textarea {
 }
 
 .copyright-area {
-    background-color: #104d13
+    background-color: #02353c
 }
 
 .copyright {
-    padding: 30px 0
+    padding: 13px 0
 }
 
 .copyright .copy {
@@ -5162,7 +5163,7 @@ textarea {
     cursor: pointer;
     top: 87%;
     right: -10%;
-    background-color: #b6cfb7;
+    background-color: #02353c;
     z-index: 4;
     width: 50px;
     text-align: center;

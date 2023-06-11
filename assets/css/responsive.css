@@ -113,7 +113,8 @@
 
     .banner-area {
         padding-bottom: 0;
-        background-color: transparent
+        background-color: transparent;
+        padding-top: 12px;
     }
 
     .banner-area .container-fluid {
@@ -1108,7 +1109,7 @@
     }
 
     .copyright-area {
-        background-color: #104d13
+        background-color: #02353c
     }
 
     .copyright .copy {
@@ -1117,7 +1118,7 @@
 
     .copyright .social-content {
         text-align: center;
-        margin-bottom: 20px
+        margin-bottom: 7px
     }
 
     .page-banner-area {
@@ -3405,8 +3406,8 @@
         background-color: #538055;
         box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
         z-index: 2;
-        /*padding-top: 20px;*/
-        padding-bottom: 20px
+        padding-top: 0;
+        padding-bottom: 0
     }
 
     .navbar-area .dropdown-toggle::after {
@@ -3518,7 +3519,7 @@
     }
 
     .mobile-responsive-nav .mobile-responsive-menu.mean-container a.meanmenu-reveal span {
-        background: #e1db7d;
+        background: #02353c;
         height: 4px;
         margin-top: -6px;
         border-radius: 0;
