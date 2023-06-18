@@ -132,7 +132,7 @@ textarea {
 }
 
 .top-header-area {
-    background-color: #02353c;
+    background-color: #245138;
     padding-top: 8px;
     padding-bottom: 8px
 }
@@ -201,7 +201,7 @@ textarea {
 .navbar-area {
     position: relative;
     /*padding-top: 15px;*/
-    padding-bottom: 15px
+    /*padding-bottom: 15px*/
 }
 
 .navbar-area.is-sticky {
@@ -268,7 +268,7 @@ textarea {
 
 .desktop-nav .navbar .navbar-nav .nav-item a {
     font-size: 16px;
-    color: #02353c;
+    color: #4e7f19;
     line-height: 1;
     position: relative;
     font-weight: 600;
@@ -343,7 +343,7 @@ textarea {
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
-    color: #1b2336;
+    color: #4e7f19;
     padding: 15px;
     border-bottom: 1px dashed #ededed;
     margin: 0;
@@ -5652,4 +5652,45 @@ textarea {
 .coming-soon-area .coming-soon .newsletter-form .validation-danger {
     color: #e60808;
     padding-top: 7px
+}
+
+#dropdownMenuButton2{
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
+.dropdown-menu-dark {
+    background-color: #02353c !important;
+}
+.form-control {
+    height: 38px;
+    border: 1px solid rgb(68 147 66);
+    padding-left: 15px;
+}
+#search{
+    font-size: 14px;
+}
+.btn-outline-search{
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #02353c;
+    --bs-btn-hover-border-color: #02353c;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #02353c;
+}
+
+.carousel-caption h5{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 123px;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption h5{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
 }

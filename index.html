@@ -38,33 +38,33 @@
 </head>
 <body>
 
-<div class="preloader-area">
-    <div class="spinner">
-        <div class="inner">
-            <div class="disc"></div>
-            <div class="disc"></div>
-            <div class="disc"></div>
-        </div>
-    </div>
-</div>
-
 
 <div class="navbar-area nav-bg-1">
     <div class="top-header-area">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-8 col-md-8">
                     <div class="header-right-content">
                         <div class="list">
                             <ul>
-                                <li><a href="#">HKU</a></li>
-                                <li><a href="#">Faculty of Engineering</a></li>
-                                <li><a href="#">Student Intranet</a></li>
-                                <li><a href="#">Project Mingde</a></li>
-                                <li><a href="#">Related Sites</a></li>
+                                <li><a href="https://www.hku.hk/" target="_blank">The University of Hong Kong</a></li>
+                                <li><a href="https://www.civil.hku.hk/" target="_blank">Faculty of Engineering and Department of Civil Engineering</a></li>
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Language
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                        <li><a class="dropdown-item" href="#">EN</a></li>
+                                        <li><a class="dropdown-item" href="#">简</a></li>
+                                    </ul>
                             </ul>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-4">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-search" id="search" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/white-logo.png" alt="logo">
+                    <img src="assets/images/white-logo.png" alt="logo" style="max-width: 280px;">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
@@ -100,13 +100,13 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">Welcome Message</a>
+                                </li>
+                                <li class="nav-item">
                                     <a href="#" class="nav-link">Vision & Mission</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">Research Focus</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Welcome Message</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="faq.html" class="nav-link">People</a>
@@ -119,24 +119,35 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Research Task Force</a>
-                                </li>
-                                <li class="nav-item">
                                     <a href="#" class="nav-link">Research Projects</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">Publications</a>
                                 </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                News & Events
+                            </a>
+                            <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Collaborators</a>
+                                    <a href="#" class="nav-link">News/Highlight</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Events</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">News & Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Contact
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Join CICID</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -150,7 +161,7 @@
 
 <div class="banner-area pb-100">
     <div class="container">
-        <div class="hero-slider owl-carousel owl-theme" data-slider-id="1">
+        <!--<div class="hero-slider owl-carousel owl-theme" data-slider-id="1">
             <div class="slider-item banner-bg-1">
                 <div class="slider-content">
                     <h1>Centre for Innovation in
@@ -172,6 +183,39 @@
                         Development</h1>
                 </div>
             </div>
+        </div>-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/banner/banner-img1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Centre for Innovation in
+                            Construction & Infrastructure
+                            Development</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/banner/banner-img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Centre for Innovation in
+                            Construction & Infrastructure
+                            Development</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/banner/banner-img3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Centre for Innovation in
+                            Construction & Infrastructure
+                            Development</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -181,7 +225,7 @@
 <div class="events-area bg-f4f6f9 ptb-100">
     <div class="container">
         <div class="section-title">
-            <h2>Events & News</h2>
+            <h2>News/Highlight</h2>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
@@ -233,55 +277,123 @@
                 </div>
             </div>
         </div>
-        <div class="more-health-care text-center">
+
+    </div>
+</div>
+
+
+
+<div class="events-area ptb-100">
+    <div class="container">
+        <div class="section-title">
+            <h2>Events</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
+                 data-aos-once="true">
+                <div class="single-events-card">
+                    <div class="events-image">
+                        <a href="https://www.civil.hku.hk/cicid/3_events.htm"><img src="assets/images/events/e1.jpg" alt="Image"></a>
+                        <div class="date">
+                            <span>14</span>
+                            <p>Dec</p>
+                        </div>
+                    </div>
+                    <div class="events-content">
+                        <a href="https://www.civil.hku.hk/cicid/3_events.htm"><h3>HKU members and Wong Chuk Hang Student Residence Project Receive four prestigious Awards at MiC Achievement Ceremony</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400"
+                 data-aos-once="true">
+                <div class="single-events-card">
+                    <div class="events-image">
+                        <a href="https://www.civil.hku.hk/cicid/3_events.htm"><img src="assets/images/events/e2.jpg" alt="Image"></a>
+                        <div class="date">
+                            <span>12</span>
+                            <p>Dec</p>
+                        </div>
+                    </div>
+                    <div class="events-content">
+                        <a href="https://www.civil.hku.hk/cicid/3_events.htm"><h3>CICID 20th Anniversary Conference
+                            Hong Kong 2050 - A City for the People:
+                            Capacity, Innovation, Smart and Sustainability</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600"
+                 data-aos-once="true">
+                <div class="single-events-card">
+                    <div class="events-image">
+                        <a href="https://www.civil.hku.hk/cicid/3_events.htm"><img src="assets/images/events/e3.jpg" alt="Image"></a>
+                        <div class="date">
+                            <span>12</span>
+                            <p>Dec</p>
+                        </div>
+                    </div>
+                    <div class="events-content">
+                        <a href="#"><h3>CICID Logo Design Competition 2022
+                            Announcement of Results</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="more-health-care text-center">
             <p>Select From Hundreds of Options. <a href="#" class="read-more-btn active">More on Events<i
                     class="flaticon-next"></i></a></p>
-        </div>
+        </div>-->
     </div>
 </div>
 
 
 
 
-<div class="campus-life-area ptb-100">
+<div class="campus-life-area bg-f4f6f9 ptb-100">
     <div class="container">
         <div class="section-title">
-            <h2>Useful Links</h2>
+            <h2>Links</h2>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
-                <div class="single-campus-card">
-                    <div class="img">
-                        <a href="https://www.civil.hku.hk/wpan/" target="_blank"><img src="assets/images/campus-life/11.jpg" alt="Image"></a>
-                    </div>
-                    <div class="campus-content text-center">
-                        <a href="https://www.civil.hku.hk/wpan/" target="_blank"><h3>www.civil.hku.hk/wpan/</h3></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400" data-aos-once="true">
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400" data-aos-once="true">
                 <div class="single-campus-card">
                     <div class="img">
                         <a href="https://www.miclab.hk/" target="_blank"><img src="assets/images/campus-life/22.jpg" alt="Image"></a>
                     </div>
                     <div class="campus-content text-center">
-                        <a href="https://www.miclab.hk/" target="_blank"><h3>www.miclab.hk/</h3></a>
+                        <a href="https://www.miclab.hk/" target="_blank"><h3>www.miclab.hk</h3></a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" data-aos-once="true">
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" data-aos-once="true">
                 <div class="single-campus-card">
                     <div class="img">
                         <a href="https://micnet.org/" target="_blank"><img src="assets/images/campus-life/33.jpg" alt="Image"></a>
                     </div>
                     <div class="campus-content text-center">
-                        <a href="https://micnet.org/" target="_blank"><h3>www.micnet.org/</h3></a>
+                        <a href="https://micnet.org/" target="_blank"><h3>www.micnet.org</h3></a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="more-campus text-center">
-            <p>Select From Hundreds of Options. <a href="#" class="read-more-btn active">More on Campus Life <i class="flaticon-next"></i></a></p>
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400" data-aos-once="true">
+                <div class="single-campus-card">
+                    <div class="img">
+                        <a href="https://www.netzero.hk/" target="_blank"><img src="assets/images/links/netzero.png" alt="Image"></a>
+                    </div>
+                    <div class="campus-content text-center">
+                        <a href="https://www.netzero.hk/" target="_blank"><h3>www.netzero.hk</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" data-aos-once="true">
+                <div class="single-campus-card">
+                    <div class="img">
+                        <a href="http://www.hkzcp.org/" target="_blank"><img src="assets/images/links/hkzcp.png" alt="Image"></a>
+                    </div>
+                    <div class="campus-content text-center">
+                        <a href="http://www.hkzcp.org/" target="_blank"><h3>www.hkzcp.org</h3></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -293,22 +405,32 @@
 <div class="footer-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-5 col-sm-6">
                 <div class="footer-logo-area">
-                    <a href="index.html"><img src="assets/images/white-logo.png" alt="Image"></a>
+                    <a href="index.html"><img src="assets/images/only-logo.png" alt="Image"></a>
                     <p>The Centre for Innovation in Construction & Infrastructure Development (CICID), which is in the Department of Civil Engineering of The University of Hong Kong, was established in November 2002.</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-2 col-sm-6">
                 <div class="footer-widjet">
-                    <h3>Our Links</h3>
+                    <h3>About CICID</h3>
                     <div class="list">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About CICID</a></li>
-                            <li><a href="#">Research</a></li>
-                            <li><a href="#">News and Events</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Welcome Message</a></li>
+                            <li><a href="#">Vision & Mission</a></li>
+                            <li><a href="#">Research Focus</a></li>
+                            <li><a href="#">People</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="footer-widjet">
+                    <h3>RESEARCH</h3>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">Research Projects</a></li>
+                            <li><a href="#">Publications</a></li>
                         </ul>
                     </div>
                 </div>
@@ -339,7 +461,7 @@
             <div class="row text-center">
                 <div class="col-lg-12 col-md-12">
                     <div>
-                        <p style="color: #FFFFFF">© All Right Reserved <a href="#" target="_blank" style="color: #FFFFFF">HKU Civil</a>
+                        <p style="color: #FFFFFF">Copyright © <a href="#" target="_blank" style="color: #FFFFFF">HKU CICID.</a> All rights reserved and all liabilities disclaimed
                         </p>
                     </div>
                 </div>
