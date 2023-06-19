@@ -3642,6 +3642,7 @@ textarea {
 }
 
 .single-events-card.style2 .events-content {
+    height: 250px;
     background-color: #fff;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05)
 }
@@ -5693,4 +5694,9 @@ textarea {
         font-size: 16px;
         margin-bottom: 0;
     }
+}
+
+.container-fluid{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
