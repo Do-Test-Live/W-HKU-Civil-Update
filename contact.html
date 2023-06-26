@@ -49,7 +49,8 @@
                             <ul>
                                 <li><a href="https://www.hku.hk/" target="_blank">The University of Hong Kong</a></li>
                                 <li><a href="https://www.civil.hku.hk/" target="_blank">Faculty of Engineering</a></li>
-                                <li><a href="https://www.civil.hku.hk/" target="_blank">Department of Civil Engineering</a></li>
+                                <li><a href="https://www.civil.hku.hk/" target="_blank">Department of Civil
+                                    Engineering</a></li>
                                 <li><a href="#" target="_blank">EN</a></li>
 
                             </ul>
@@ -75,7 +76,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/white-logo.png" alt="logo" style="max-width: 400px;z-index: 2;position: absolute;top: -40px;">
+                    <img src="assets/images/white-logo.png" alt="logo"
+                         style="max-width: 400px;z-index: 2;position: absolute;top: -40px;">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
@@ -252,10 +254,110 @@
 <div class="contact-us-area pt-100 pb-70">
     <div class="container">
         <div class="row">
+            <div class="col-lg-6">
+                <div class="contacts-form">
+                    <h3>Leave a message</h3>
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Your name</label>
+                                    <input type="text" name="name" id="name" class="form-control" required
+                                           data-error="Please enter your name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Your email</label>
+                                    <input type="email" name="email" id="email" class="form-control" required
+                                           data-error="Please enter your email">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Your phone</label>
+                                    <input type="text" name="phone_number" id="phone_number" required
+                                           data-error="Please enter your number" class="form-control">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
+                                           data-error="Please enter your subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Your message</label>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="8"
+                                              required data-error="Write your message"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <button type="submit" class="default-btn">
+                                    <span>Send message</span>
+                                </button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6 my-auto">
+                <div class="contact-and-address">
+                    <h2>Contact Us</h2>
+                    <p style="line-height: 1.3;">The Centre aims to establish close links with the industry and other
+                        research institutes through
+                        collaborative research and consultancy. It would be our pleasure to introduce more about our
+                        Centre to you at your convenience. Please contact us at:</p>
+                    <div class="contact-and-address-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact-card">
+                                    <div class="icon">
+                                        <i class="ri-phone-line"></i>
+                                    </div>
+                                    <h4>Contact</h4>
+                                    <p>Mobile: <a href="tel:+8522859 8024">(852) 2859 8024</a></p>
+                                    <p>Mail: <a
+                                            href="mailto:cicid@hkucc.hku.hk"><span>cicid@hkucc.hku.hk</span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact-card">
+                                    <h4>Centre for Innovation in Construction & Infrastructure Development</h4>
+                                    <p>Department of Civil Engineering</p>
+                                    <p>The University of Hong Kong</p>
+                                    <p>Pokfulam Road, Hong Kong</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--<div class="contact-us-area pt-100 pb-70">
+    <div class="container">
+        <div class="row">
             <div class="col-lg-12">
                 <div class="contact-and-address">
                     <h2>Contact</h2>
-                    <p style="line-height: 1.3">The Centre aims to establish close links with the industry and other research institutes through
+                    <p style="line-height: 1.3">The Centre aims to establish close links with the industry and other
+                        research institutes through
                         collaborative research and consultancy. It would be our pleasure to introduce more about our
                         Centre to you at your convenience. Please contact us at: </p>
                     <div class="contact-and-address-content">
@@ -286,6 +388,215 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+
+<div class="contact-us-area pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-and-address" style="text-align: justify;">
+                    <h2>Join Us</h2>
+                    <h4>Information about Professor Wei Pan’s research group</h4>
+                    <p style="line-height: 1.3">Professor Wei Pan is Professor and Executive Director of the Centre for
+                        Innovation in Construction and Infrastructure Development (CICID), at Department of Civil
+                        Engineering of HKU. Professor Pan is also Associate Vice-President (Research and GBA) of HKU,
+                        Executive Director of HKU Shenzhen Institute of Research and Innovation (SIRI), and Director of
+                        Net Zero Laboratory and MiC Laboratory. </p>
+
+                    <p style="line-height: 1.3">Professor Pan is specialised in sustainable construction engineering and
+                        management with rich practical, research and teaching experience in China, UK, Singapore and
+                        Hong Kong. Professor Pan serves many academic, government and industry boards and committees.
+                        His research interest covers modular integrated construction (MiC), offsite prefabrication,
+                        smart and sustainable construction, zero carbon building, building energy analysis, life cycle
+                        assessment, advanced structures and innovative materials. Professor Pan has attracted over HK$95
+                        million research funding, authored over 300 publications, and supervised over 80 doctoral and
+                        post-graduate researchers.</p>
+
+                    <p style="line-height: 1.3">Professor Pan is Chartered Builder, Chartered Environmentalist, Fellow
+                        of the Higher Education Academy, Member of Hong Kong Institution of Engineers, Convenor of Hong
+                        Kong Zero Carbon Partnership, Editor-in-Chief of ICE Engineering Sustainability and member of
+                        editorial board of a number of international journals.</p>
+
+                    <p style="line-height: 1.3"><b>Professor Wei Pan’s website:</b> <a
+                            href="https://www.civil.hku.hk/wpan/" target="_blank">https://www.civil.hku.hk/wpan/</a></p>
+                    <p style="line-height: 1.3"><b>CICID:</b> <a href="http://www.civil.hku.hk/cicid/" target="_blank">http://www.civil.hku.hk/cicid/</a>
+                    </p>
+                    <p style="line-height: 1.3"><b>Department of Civil Engineering, HKU:</b> <a
+                            href="http://www.civil.hku.hk/" target="_blank">http://www.civil.hku.hk/</a></p>
+                    <p style="line-height: 1.3">A number of research positions (at the levels of Research Assistant
+                        Professor (RAP), Post-doctoral Fellow (PDF), Research Associate/Assistant (RA), and PhD) are
+                        available at Professor Wei Pan’s Research Group, Department of Civil Engineering of The
+                        University of Hong Kong (HKU):</p>
+                </div>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1. PDF posts on Modular Integrated Construction (MiC) supply chain, construction
+                                performance measurement, and construction productivity:
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Applicants should obtain a doctoral degree on the topic of supply chain management,
+                                multi-criteria decision-making, and/or construction performance measurement. Priority
+                                will be given to applicants who have experience in research funding application and
+                                research project management on modular construction.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. PDF posts on smart construction and transportation in modular construction (e.g. AI,
+                                Robotics and Blockchain for modular and offsite construction):
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Applicants should obtain a doctoral degree in the field of computer science, mechanical
+                                engineering, transportation, construction management or related. Priority will be given
+                                to applicants who have experience in research funding application and research project
+                                management on modular and offsite construction.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                3. PhD on smart tech-integrated construction performance monitoring and control:
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Applicants should have a first-class degree or equivalent in civil engineering or
+                                construction engineering management. Priority will be given to applicants who are
+                                experienced in mathematical modelling and computer programming, and have a master
+                                degree.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                4. 2 PDFs on innovative structural systems and connections, high-performance concrete
+                                materials, and low-carbon concrete materials for concrete MiC high-rise residential
+                                buildings:
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Applicants should obtain a doctoral degree in the field of structural engineering and
+                                construction materials for concrete prefabricated buildings. Priority will be given to
+                                applicants who have had experience in research funding application and research project
+                                management.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                5. 1 PDF on the analysis of passive design measures on building energy performance for
+                                high-rise residential buildings that adopt modular construction methods:
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Applicants should have a relevant background in building physics or heating,
+                                ventilation, and air conditioning (HVAC) and a first-class bachelor's or doctoral degree
+                                in the relevant field. Priority will be given to applicants with research and practical
+                                experience in 1) analyzing the energy performance of passive design measures for
+                                sustainable buildings, such as the energy performance of various roofs, external walls,
+                                windows and shading devices, and/or 2) high-rise residential building energy simulation
+                                and parametric analysis. Knowledge of AI techniques for building energy simulation would
+                                be a bonus.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                6. 1 PhD on steel structural design and lifecycle carbon analysis for steel MiC
+                                high-rise buildings:
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Applicants should have a first-class degree or equivalent with the background in
+                                structural engineering or lifecycle carbon assessment. Priority will be given to
+                                applicants who are experienced in the simulation and testing of steel high-rise
+                                buildings and have a master degree. Knowledge of MiC will be a bonus.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false"
+                                    aria-controls="collapseSeven">
+                                7. RA posts on website and software development:
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Applicants should have a degree in computer science, construction management or related
+                                disciplines. Applicants should master at least one of the tech stacks like React, Vue,
+                                Spring Boot, Warp, or game engines like Unity3D and Unreal Engine. Priority will be
+                                given to applicants who are experienced in website and software development.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contact-and-address pt-5" style="text-align: justify;">
+                    <h4>Other requirements</h4>
+                    <p style="line-height: 1.3">Candidates with excellent bachelor’s / master’s / doctoral degree in
+                        Civil Engineering or relevant disciplines to the posts listed above are welcome to apply.
+                        Minimum application requirements are as follows: GPA ≥ 85%; TOEFL-iBT: Overall≥90; IELTS:
+                        overall≥6.5. All applicants should also have a high degree of self-motivation, good written and
+                        oral communication skills in English, and the ability to work independently and in a team.
+                        Successful applicants will receive a highly competitive salary, annual leave, medical benefits,
+                        as well as opportunities for collaboration and learning. The contract period for PDFs and RAs
+                        will be one year and renewal will be based on job performance. </p>
+                </div>
+
+                <div class="contact-and-address" style="text-align: justify;">
+                    <h4>Information on application</h4>
+                    <ul>
+                        <li>Interested candidates may apply to Professor Wei Pan by email wpan@hku.hk, attaching CV, transcripts and research proposals as relevant.</li>
+                        <li>Application deadline: 30 June 2023 or when the posts are filled.</li>
+                        <li>A highly competitive salary will be offered in addition to annual leave and medical benefits, as well as excellent learning opportunity and team work.</li>
+                        <li>Outstanding PhD applicants may be nominated for the prestigious Hong Kong PhD Fellowship (HKPF):<a href="https://cerg1.ugc.edu.hk/hkpfs" target="_blank">https://cerg1.ugc.edu.hk/hkpfs</a>.</li>
+                    </ul>
+                </div>
+
+
             </div>
         </div>
     </div>

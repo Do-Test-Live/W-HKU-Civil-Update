@@ -5279,7 +5279,7 @@ textarea {
 
 .accordion .accordion-item {
     margin-bottom: 20px;
-    border: 1px solid rgba(227, 40, 69, .4);
+    border: 1px solid rgb(123 194 70);
     border-radius: 10px
 }
 
