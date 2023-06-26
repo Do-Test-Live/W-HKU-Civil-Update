@@ -1541,10 +1541,10 @@ textarea {
 
 .single-academics-card3 {
     text-align: center;
-    padding: 25px;
-    border: 1px solid #eee;
-    margin-bottom: 30px;
-    position: relative
+    padding: 8px;
+    border: 1px solid #245138;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .single-academics-card3::before {
@@ -4675,7 +4675,7 @@ textarea {
 
 .footer-area {
     background-color: #449342;
-    position: relative;
+    /*position: relative;*/
     z-index: 1
 }
 
@@ -6391,4 +6391,10 @@ textarea {
 .pcss3t > ul,
 .pcss3t > ul > li {
     height: 500px;
+}
+
+
+.alumni-area h3{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
