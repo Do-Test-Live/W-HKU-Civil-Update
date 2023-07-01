@@ -84,7 +84,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #449342;
+    color: #111d5e;
     font-family: "source serif pro", serif;
     font-weight: 700
 }
@@ -268,7 +268,7 @@ textarea {
 
 .desktop-nav .navbar .navbar-nav .nav-item a {
     font-size: 18px;
-    color: #4e7f19;
+    color: #111d5e;
     line-height: 1;
     position: relative;
     font-weight: 600;
@@ -299,7 +299,7 @@ textarea {
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a:hover, .desktop-nav .navbar .navbar-nav .nav-item a:focus, .desktop-nav .navbar .navbar-nav .nav-item a.active {
-    color: #b6cfb7
+    color: #7cc246
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a i {
@@ -333,7 +333,7 @@ textarea {
     border: none;
     z-index: 99;
     opacity: 0;
-    top: 80px;
+    top: -80px;
     left: 0;
     padding: 0
 }
@@ -343,7 +343,7 @@ textarea {
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
-    color: #4e7f19;
+    color: #111d5e;
     padding: 15px;
     border-bottom: 1px dashed #ededed;
     margin: 0;
@@ -552,7 +552,7 @@ textarea {
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
-    top: 100%;
+    top: 65%;
     opacity: 1;
     margin-top: 20px;
     transform: translateY(1);
@@ -984,7 +984,7 @@ textarea {
     background-color: #449342;
     color: #fff;
     font-size: 16px;
-    padding: 13px 35px;
+    padding: 10px 20px;
     border-radius: 0;
     position: relative;
     transition: all ease .5s;
@@ -1099,7 +1099,7 @@ textarea {
 }
 
 .banner-area {
-    background-color: #7cc246;
+    background-color: #ffffff;
     overflow: hidden
 }
 
@@ -3661,7 +3661,7 @@ textarea {
 }
 
 .single-events-card.style2 .events-content .admin-and-date ul li a {
-    color: #555
+    color: #245138
 }
 
 .single-events-card.style2 .events-content .admin-and-date ul li a i {
@@ -4675,7 +4675,7 @@ textarea {
 
 .footer-area {
     background-color: #449342;
-    /*position: relative;*/
+    position: relative;
     z-index: 1
 }
 
@@ -4701,7 +4701,8 @@ textarea {
 
 .footer-logo-area p {
     margin-bottom: 25px;
-    color: #fff
+    color: #fff;
+    line-height: 1.5;
 }
 
 .footer-logo-area .contact-list ul {
@@ -6394,7 +6395,8 @@ textarea {
 }
 
 
+/*
 .alumni-area h3{
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-}
+}*/
