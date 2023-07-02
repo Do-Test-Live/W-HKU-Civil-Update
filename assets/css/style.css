@@ -3593,11 +3593,11 @@ textarea {
 .single-events-card .events-image .date {
     background-color: #fff;
     position: absolute;
-    bottom: -35px;
-    left: 30px;
-    padding: 15px 25px;
+    bottom: -28px;
+    left: 35px;
+    padding: 5px 20px;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .single-events-card .events-image .date span {
@@ -3610,7 +3610,7 @@ textarea {
 .single-events-card .events-content {
     padding: 30px;
     background-color: #fff;
-    height: 200px;
+    height: 100%;
 }
 
 .single-events-card .events-content .admin {
@@ -5295,7 +5295,8 @@ textarea {
     font-size: 18px;
     font-weight: 700;
     position: relative;
-    margin-bottom: 0
+    margin-bottom: 0;
+    line-height: 30px;
 }
 
 .accordion .accordion-item .accordion-button:focus {
@@ -5328,8 +5329,8 @@ textarea {
 }
 
 .accordion .accordion-item .accordion-body {
-    padding-top: 0;
-    font-size: 15px
+    padding: 40px;
+    font-size: 15px;
 }
 
 .login {
@@ -5936,7 +5937,7 @@ textarea {
     text-transform: uppercase;
 }
 .pcss3t .typography p {
-    margin: 20px 0 0 0;
+    margin: 5px 0 0 0;
     padding: 0;
     line-height: 20px;
     text-align: left;
