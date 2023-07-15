@@ -6601,8 +6601,8 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     padding: 0;
     margin-right: 3px;
     margin-left: 3px;
