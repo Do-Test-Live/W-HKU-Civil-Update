@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 15px;
     color: #555;
     line-height: 1
@@ -1099,7 +1099,7 @@ textarea {
 }
 
 .banner-area {
-    background-color: #ffffff;
+    background-color: #f4f6f9;
     overflow: hidden
 }
 
@@ -2846,7 +2846,7 @@ textarea {
 }
 
 .single-campus-card .campus-content h3:hover {
-    color: #b6cfb7
+    color: #7cc246
 }
 
 .single-campus-card.style2 .campus-content {
@@ -5903,7 +5903,7 @@ textarea {
     padding: 0;
     font-family: Gabriela, Georgia, serif;
     text-align: left;
-    color: #449342;
+    color: #111d5e;
 }
 .pcss3t .typography h1 {
     font-size: 40px;
@@ -5916,8 +5916,8 @@ textarea {
     text-shadow: 2px 2px rgba(0,0,0,0.1);
 }
 .pcss3t .typography h3 {
-    font-size: 26px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 30px;
     text-shadow: 1px 1px rgba(0,0,0,0.1);
 }
 .pcss3t .typography h4 {
@@ -5976,7 +5976,6 @@ textarea {
     left: 0;
 }
 .pcss3t .typography a {
-    text-decoration: underline;
     color: #538055;
 }
 .pcss3t .typography a:hover {
@@ -6142,7 +6141,7 @@ textarea {
 .pcss3t > label {
     padding: 0 20px;
     background: #e5e5e5;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 49px;
 }
 .pcss3t > label:hover {
