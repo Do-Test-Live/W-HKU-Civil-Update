@@ -3403,9 +3403,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .header-right-content .list ul li a{
-        font-size: 12px;
-    }
     .navbar-area {
         background-color: #538055;
         box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
@@ -3454,7 +3451,7 @@
     }
 
     .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav {
-        margin-top: 54px;
+        margin-top: 50px;
         background-color: #fff
     }
 
